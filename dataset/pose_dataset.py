@@ -60,6 +60,7 @@ class PoseDataset:
         # Load Matlab file dataset annotation
         mlab = sio.loadmat(file_name)
         self.raw_data = mlab
+        #print(mlab)
         mlab = mlab['dataset']
 
         num_images = mlab.shape[1]

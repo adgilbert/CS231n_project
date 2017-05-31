@@ -69,9 +69,9 @@ def show_heatmaps(cfg, img, scmap, pose, cmap="jet"):
     curr_plot = axarr[0, 0]
     curr_plot.set_title('Pose')
     curr_plot.axis('off')
-    curr_plot.imshow(visualize_joints(img, pose))
+    curr_plot.show(visualize_joints(img, pose))
 
-    plt.show()
+    plt.show()#savefig()
 
 
 def waitforbuttonpress():

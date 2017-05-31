@@ -46,10 +46,10 @@ def test_net(visualise, cache_scoremaps):
         pose_refscale[:, 0:2] /= cfg.global_scale
         predictions[k] = pose_refscale
 
-        if visualise:
-            img = np.squeeze(batch[Batch.inputs]).astype('uint8')
-            visualize.show_heatmaps(cfg, img, scmap, pose)
-            visualize.waitforbuttonpress()
+        #if visualise:
+        #    img = np.squeeze(batch[Batch.inputs]).astype('uint8')
+        #    visualize.show_heatmaps(cfg, img, scmap, pose)
+        #    visualize.waitforbuttonpress()
 
         if cache_scoremaps:
             base = os.path.basename(batch[Batch.data_item].im_path)

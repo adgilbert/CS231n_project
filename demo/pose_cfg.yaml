@@ -1,6 +1,6 @@
 dataset_type: "mpii"
 
-num_joints: 14
+num_joints: 18
 all_joints: [[0, 5], [1, 4], [2, 3], [6, 11], [7, 10], [8, 9], [12], [13]]
 all_joints_names: ['ankle', 'knee', 'hip', 'wrist', 'elbow', 'shoulder', 'chin', 'forehead']
 

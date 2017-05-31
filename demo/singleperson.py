@@ -8,6 +8,7 @@ from scipy.misc import imread
 from config import load_config
 from nnet import predict
 from util import visualize
+
 from dataset.pose_dataset import data_to_input
 
 
