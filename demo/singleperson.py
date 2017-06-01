@@ -31,4 +31,4 @@ pose = predict.argmax_pose_predict(scmap, locref, cfg.stride)
 
 # Visualise
 visualize.show_heatmaps(cfg, image, scmap, pose)
-visualize.waitforbuttonpress()
+#visualize.waitforbuttonpress()

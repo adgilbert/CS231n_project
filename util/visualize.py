@@ -72,7 +72,7 @@ def show_heatmaps(cfg, img, scmap, pose, cmap="jet"):
     curr_plot.imshow(visualize_joints(img, pose))
 
     plt.show()
-
+    #plt.savefig('./testing.png')
 
 def waitforbuttonpress():
     plt.waitforbuttonpress(timeout=1)
