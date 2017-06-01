@@ -1,4 +1,4 @@
-dataset: /home/pattypat_slade/CS231n_project/dataset/aug_ego/dataset.mat #cropped/dataset.mat
+dataset: /home/Andy/CS231n/project/CS231n_project/dataset/aug_ego/dataset.mat #cropped/dataset.mat
 dataset_type: "mpii"
 
 num_joints: 18
@@ -9,7 +9,7 @@ scale_jitter_lo: 0.85
 scale_jitter_up: 1.15
 
 net_type: resnet_101
-init_weights: aug_snapshot/snapshot-20000  #../../pretrained/resnet_v1_101.ckpt
+init_weights: ../../pretrained/resnet_v1_101.ckpt
 
 location_refinement: true
 locref_huber_loss: true
